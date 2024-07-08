@@ -24,8 +24,8 @@ pip install pyrealsense
 pip install opencv-python numpy
 pip install matplotlib scipy pandas torch torchvision torchaudio
 ```
+```bash
 run the file 
-'''bash 
 python3 file_name 
 ```
 ### Volume Calculation Methodology
