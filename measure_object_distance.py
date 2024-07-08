@@ -46,10 +46,10 @@ while True:
                     cv2.FONT_HERSHEY_SIMPLEX, 1, color, 2, cv2.LINE_AA)
         #cv2.putText(color_image, f"Min Depth: {min_depth:.2f} cm", (cx, cy + 20),
          #           cv2.FONT_HERSHEY_SIMPLEX, 1, color, 2, cv2.LINE_AA)
-        #cv2.putText(color_image, f"distance: {distance:.2f} cm", (cx, cy + 60),
-         #           cv2.FONT_HERSHEY_SIMPLEX, 1, color, 2, cv2.LINE_AA)                    
-        cv2.putText(color_image, f"Volume: {volume:.2f} cc", (cx, cy + 80),
-                    cv2.FONT_HERSHEY_SIMPLEX, 1, color, 2, cv2.LINE_AA)
+        cv2.putText(color_image, f"distance: {distance:.2f} cm", (cx, cy + 60),
+                    cv2.FONT_HERSHEY_SIMPLEX, 1, color, 2, cv2.LINE_AA)                    
+        #cv2.putText(color_image, f"Volume: {volume:.2f} cc", (cx, cy + 80),
+         #           cv2.FONT_HERSHEY_SIMPLEX, 1, color, 2, cv2.LINE_AA)
 
     # Show color image
     cv2.imshow("Color Image", color_image)
