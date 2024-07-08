@@ -17,14 +17,14 @@ First, create a Conda environment with Python 3.11:
 
 ```bash
 conda create -n myenv python=3.11
-
+```
 if the pyrealsense is not working then try lower versions of the pyrealsense
 ```bash
 pip install pyrealsense
 '''bash
 pip install opencv-python numpy
 pip install matplotlib scipy pandas torch torchvision torchaudio
-
+```
 run the file 
 '''bash 
 python3 file_name 
