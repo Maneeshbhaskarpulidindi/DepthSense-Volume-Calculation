@@ -25,7 +25,7 @@ pip install opencv-python numpy
 pip install matplotlib scipy pandas torch torchvision torchaudio
 ```
 ```bash
-run the file 
+#run the file 
 python3 file_name 
 ```
 ### Volume Calculation Methodology
