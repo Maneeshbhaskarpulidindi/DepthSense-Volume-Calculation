@@ -1,4 +1,4 @@
-#http://www.pysource.com
+#Maneesh 
 import numpy as np
 from ultralytics import YOLO
 import random
