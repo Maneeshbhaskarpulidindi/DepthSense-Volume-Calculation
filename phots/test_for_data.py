@@ -4,7 +4,7 @@ import git
 from datetime import datetime
 
 # GitHub repository details
-REPO_PATH = '/path/to/local/repo'  # Path to your local clone of the GitHub repo
+REPO_PATH = '/home/manohar/Desktop/Volume/h/DepthSense-Volume-Calculation'  # Path to your local clone of the GitHub repo
 REPO_URL = 'git@github.com:Maneeshbhaskarpulidindi/APP_for_data.github.io.git'
 NUM_IMAGES = 10  # Number of images to capture
 
